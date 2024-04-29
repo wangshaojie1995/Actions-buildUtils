@@ -1,6 +1,7 @@
 name: 'go构建并下载'
 
 on:
+  disabled: true
   repository_dispatch:
   workflow_dispatch:
     inputs:
