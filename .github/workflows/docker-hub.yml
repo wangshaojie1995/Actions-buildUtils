@@ -1,6 +1,7 @@
 name: '*构建镜像并推送至docker hub'
 
 on:
+  disabled: true
   repository_dispatch:
   workflow_dispatch:
     inputs:
