@@ -1,6 +1,7 @@
 name: '自定义shell构建并下载'
 
 on:
+  disabled: true
   repository_dispatch:
   workflow_dispatch:
     inputs:
